@@ -1,0 +1,184 @@
+body{
+    color: #22A39F;
+    font-family: sans-serif;
+}
+
+/* Banner */
+#banner {
+    display: flex;
+    justify-content: center;
+    background-color: #f3efed;
+}
+
+#banner>img {
+    width: 40vw;
+    height: 30vw;
+   
+}
+
+/* About Me */
+#about-me {
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about-me>div>h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#about-me .general {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#about-me .general>.card {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: #f7f5e9;
+    border:#f7f5e9;
+    color:#434242;
+    align-items: center;
+}
+
+#about-me .general>.card>.card-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about-me .general>.card>.card-body>.card-text {
+    margin: 0;
+}
+
+/* Education & Experience */
+#edu-exp {
+    background-color: #f7f5e9;  
+    padding-top: 20px; 
+}
+
+#edu-exp>div>h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#edu-exp>.edu-content {
+    color:#434242; 
+}
+
+#working {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#working>h6 {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#working>ul {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+}
+
+#working>ul>div>li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#working>ul>div>li>.logo{
+    width: 7vw;
+    height: 4vw;
+    border: none;
+    border-radius: 10px;
+}
+
+#education {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#education>h6 {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+/* Abilities */
+#abilities {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#abilities>div>h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#abilities .progress {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Projects */
+#projects {
+    background-color: #f7f5e9;
+    padding-bottom: 30px;    
+    padding-top: 20px;
+}
+
+#projects>div>h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#projects>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#projects>div>div>.card {
+    height: 50vh;
+}
+/* Contacts */
+#contacts>div>h1 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contacts>#contact-form {
+    margin: 20px;
+}
+
+#contacts>#contact-form>form>label {
+    margin: 0;
+}
+
+#contacts>#contact-form>form>input {
+    margin: 10px;
+}
+
+#contacts>#contact-form>form>textarea {
+    margin: 10px;
+}
+
+#contacts>div>div {
+    justify-content: center;
+}
+
+#contacts>div>div>div>svg {
+    width: 2vw;
+    height: 2vw;
+    margin-left: 5px;
+    margin-right: 5px;
+}
